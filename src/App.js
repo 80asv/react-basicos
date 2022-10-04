@@ -1,9 +1,21 @@
+import './App.css';
 import React from 'react';
 import logo from './logo.svg';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
-import './App.css';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
+import { EventosES6, EventosES7 } from './components/Eventos';
+import { EventosNativos } from './components/EventosNativos';
+import ComunicacionComponentes from './components/ComunicacionComponentes';
+import CicloVida from './components/CicloVida';
+import AjaxAPIs from './components/AjaxAPIs';
+import ContadorHooks from './components/ContadorHooks';
+import ScrollHooks from './components/ScrollHooks';
+import RelojHooks from './components/RelojHooks';
+import AjaxHooks from './components/AjaxHooks';
+import CustomHooks from './components/CustomHooks';
 
 function App() {
 return (
@@ -38,6 +50,32 @@ return (
 			<hr />
 			{/** Este componente se actualiza cada segundo con un setInterval */}
 			<Estado />
+			<hr />
+			<RenderizadoCondicional />
+			<hr />
+			<RenderizadoElementos />
+			<hr />
+			<EventosES6 />
+			<hr />
+			<EventosES7 />
+			<hr />
+			<EventosNativos />
+			<hr />
+			<ComunicacionComponentes />
+			<hr />
+			<CicloVida />
+			<hr />
+			<AjaxAPIs />
+			<hr />
+			<ContadorHooks/>
+			<hr />
+			<ScrollHooks />
+			<hr />
+			<RelojHooks />
+			<hr />
+			<AjaxHooks />
+			<hr />
+			<CustomHooks />
 		</section>
 	</header>
 	</div>
